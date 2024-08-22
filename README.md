@@ -17,7 +17,7 @@ Testing and documentation will also be done for all implemented methods, and the
 During the GSoC 2024 program, I have successfully implemented the following features:
 * I enhance a few existing optimizers in OMEinsumContractionOrders.jl, including the greedy optimizer and the bipartition optimizer.
 * I implemented a new Julia package TreeWidthSolver.jl for solving the exact tree width of simple graphs, and used it as an exact optimizer in OMEinsumContractionOrders.jl.
-* Based on the LuxorGraphPlots.jl, I implemented a tensor network visualization tool LuxorTensorPlots as an extension of OMEinsumContractionOrders.jl, which can be used to visualize the tensor network as a hyper-graph, and generate videos for the contraction process.
+* Based on the LuxorGraphPlot.jl, I implemented a tensor network visualization tool LuxorTensorPlot as an extension of OMEinsumContractionOrders.jl, which can be used to visualize the tensor network as a hyper-graph, and generate videos for the contraction process.
 * I ported the contraction order optimization algorithms in OMEinsumContractionOrders.jl to the TensorOperations.jl package as an extension, so that users of TensorOperations.jl can also benefit from the optimizers in OMEinsumContractionOrders.jl.
 * Blogs and documentation are written for the implemented methods.
 
@@ -36,7 +36,7 @@ Links to the repositories are as follows:
 Important PRs are as follows:
 * Enhancement of OMEinsumContractionOrders.jl: [https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/41](https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/41)
 * Tree width based optimizer in OMEinsumContractionOrders.jl: [https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/43](https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/43), [https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/46](https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/46)
-* LuxorTensorPlots as an extension of OMEinsumContractionOrders.jl: [https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/44](https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/44)
+* LuxorTensorPlot as an extension of OMEinsumContractionOrders.jl: [https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/44](https://github.com/TensorBFS/OMEinsumContractionOrders.jl/pull/44)
 * The algorithm for solving exact tree width: [https://github.com/ArrogantGao/TreeWidthSolver.jl/pull/8](https://github.com/ArrogantGao/TreeWidthSolver.jl/pull/8)
 * A high performance implementation of the graph operations: [https://github.com/ArrogantGao/TreeWidthSolver.jl/pull/14](https://github.com/ArrogantGao/TreeWidthSolver.jl/pull/14)
 * Porting the optimizers to TensorOperations.jl: [https://github.com/Jutho/TensorOperations.jl/pull/185](https://github.com/Jutho/TensorOperations.jl/pull/185)
