@@ -1,7 +1,7 @@
 # Final report for GSoC 2024 program 
 
 
-This is the final report for the GSoC 2024 program "Tensor network contraction order optimization and visualization" release by The Julia Language co-mentored by Prof. Jinguo Liu and Prof. Jutho Haegeman.
+This is the final report for the GSoC 2024 program "[Tensor network contraction order optimization and visualization](https://summerofcode.withgoogle.com/programs/2024/projects/B8qSy9dO)" release by The Julia Language and co-mentored by Prof. Jinguo Liu and Prof. Jutho Haegeman.
 
 ## Goals of the project
 
@@ -55,8 +55,9 @@ In the future, I will continue to work on the following tasks:
 ## Challenges and learning
 
 During the GSoC program, I have encountered several challenges, including: 
-* The implementation of the tree width based optimizer in OMEinsumContractionOrders.jl requires a good understanding of the tree width and the graph theory. I have learned a lot about the tree width and the graph theory during the implementation.
-* High performance implementation of the graph operations in TreeWidthSolver.jl requires a good understanding of the Julia language and the performance optimization techniques. I have learned a lot about the performance optimization techniques in Julia during the implementation.
+* The implementation of the tree width based optimizer in OMEinsumContractionOrders.jl requires a good understanding of the graph theory, and also requires knowledge of tensor network contraction. I have learned a lot about the graph theory during the implementation, and have also improved my understanding of the tensor network contraction.
+* High performance implementation of the graph operations is a challenging task, which requires a good understanding of the algorithms, the Julia language. I learned a lot about the performance optimization techniques in Julia during the implementation.
+
 
 ## Acknowledgement
 
