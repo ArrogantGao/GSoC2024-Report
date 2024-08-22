@@ -1,7 +1,7 @@
 # Final report for GSoC 2024 program 
 
 
-This is the final report for the GSoC 2024 program "[Tensor network contraction order optimization and visualization](https://summerofcode.withgoogle.com/programs/2024/projects/B8qSy9dO)" release by The Julia Language and co-mentored by Prof. Jinguo Liu and Prof. Jutho Haegeman.
+This is the final report for the GSoC 2024 program "[Tensor network contraction order optimization and visualization](https://summerofcode.withgoogle.com/programs/2024/projects/B8qSy9dO)" release by The Julia Language and co-mentored by [Prof. Jinguo Liu](https://giggleliu.github.io), [Prof. Jutho Haegeman](https://jutho.github.io) and [Lukas](https://github.com/lkdvos).
 
 ## Goals of the project
 
@@ -23,7 +23,7 @@ During the GSoC 2024 program, I have successfully implemented the following feat
 
 ### Current status
 
-Currently, the package [TreeWidthSolver.jl](https://github.com/ArrogantGao/TreeWidthSolver.jl) has been released and can be used as a standalone package. A new version of [OMEinsumContractionOrders.jl](https://github.com/TensorBFS/OMEinsumContractionOrders.jl) has been released with the new optimizers and visualization tools. The porting of the optimizers to TensorOperations.jl is still in progress and will be released soon.
+Currently, the package [TreeWidthSolver.jl](https://github.com/ArrogantGao/TreeWidthSolver.jl) has been released (see [https://github.com/JuliaRegistries/General/pull/113364](https://github.com/JuliaRegistries/General/pull/113364)) and can be used as a standalone package. A new version of [OMEinsumContractionOrders.jl](https://github.com/TensorBFS/OMEinsumContractionOrders.jl) has been released with the new optimizers and visualization tools (see [https://github.com/JuliaRegistries/General/pull/113223](https://github.com/JuliaRegistries/General/pull/113223)). The porting of the optimizers to TensorOperations.jl is still in progress and will be released soon.
 
 ### Links to the repositories and PRs
 
@@ -61,4 +61,4 @@ During the GSoC program, I have encountered several challenges, including:
 
 ## Acknowledgement
 
-I would like to thank my mentors Prof. Jinguo Liu and Prof. Jutho Haegeman for their guidance and support during the GSoC program. I would also like to thank the Julia community for providing such a great platform for open-source development.
+I would like to thank my mentors Prof. Jinguo Liu, Prof. Jutho Haegeman and Lukas for their guidance and support during the GSoC program. I would also like to thank the Julia community for providing such a great platform for open-source development.
